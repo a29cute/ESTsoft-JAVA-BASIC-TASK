@@ -1,4 +1,4 @@
-package weekquiz02;
+package product;
 
 public class Beauty extends Product {
     public Beauty(String name, int price, int weight) {
