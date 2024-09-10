@@ -1,4 +1,4 @@
-package weekquiz02;
+package product;
 
 public class ProductMain {
     public static void main(String[] args) {
