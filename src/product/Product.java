@@ -1,4 +1,4 @@
-package weekquiz02;
+package product;
 
 public class Product implements Promotion {
     String name;
