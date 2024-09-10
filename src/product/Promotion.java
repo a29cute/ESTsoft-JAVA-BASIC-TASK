@@ -1,4 +1,4 @@
-package weekquiz02;
+package product;
 
 public interface Promotion {
     public int getDiscountAmount();
