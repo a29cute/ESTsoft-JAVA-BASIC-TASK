@@ -65,8 +65,6 @@ public class AddressBookProgram {
                     System.out.println("올바르지 않은 선택입니다.");
             }
         }
-
         scanner.close();
-
     }
 }
