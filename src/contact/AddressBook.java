@@ -24,14 +24,14 @@ public class AddressBook {
     }
 
     public void searchContact(String name) {
-        boolean found = false;
+        boolean isExist = false;
         for (Contact contact : contacts) {
             if (contact.getName().equalsIgnoreCase(name)) {
                 System.out.println(contact);
-                found = true;
+                isExist = true;
             }
         }
-        if (!found) {
+        if (!isExist) {
             System.out.println("연락처를 찾을 수 없습니다.");
         }
     }
