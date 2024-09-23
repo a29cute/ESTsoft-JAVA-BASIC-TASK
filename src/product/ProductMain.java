@@ -8,6 +8,6 @@ public class ProductMain {
 
     	Cart cart = new Cart(new Product[] {beauty, grocery, largeAppliance});
     	int totalDeliveryCharge = cart.calculateDeliveryCharge();
-    	System.out.println(totalDeliveryCharge);    // 결과: 9000
+    	System.out.println(totalDeliveryCharge);
     }
 }
